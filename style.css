@@ -1,0 +1,40 @@
+body{
+    background-color: #f4f6f9;
+    font-family: Arial, sans-serif;
+}
+
+/* Titre */
+.titre{
+    color: #222;
+}
+
+/* Cartes */
+.membre-card{
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 0.3s;
+    background: white;
+}
+
+.membre-card:hover{
+    transform: translateY(-10px);
+}
+
+/* Images */
+.photo{
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Texte */
+.card-title{
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Footer */
+footer{
+    margin-top: 50px;
+}
